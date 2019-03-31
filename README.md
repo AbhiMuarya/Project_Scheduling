@@ -1,5 +1,11 @@
+
+
+
+
+
+
+
 #include<stdio.h>
-#include<stdlib.h>
 
 void main()
 {
@@ -10,7 +16,7 @@ void main()
       remain=n;
       for(count=0;count<n-1;count++)
         {
-           
+           printf("Enter Arrival Time and Burst Time for Process Process Number %d :",count+1);
             scanf("%d",&at[count]);
             scanf("%d",&bt[count]);
             rt[count]=bt[count];
@@ -50,6 +56,6 @@ void main()
              }
       printf("\nAverage Waiting Time= %f\n",wait_time*1.0/n);
       printf("Avg Turnaround Time = %f",turnaround_time*1.0/n);
-      //return 0;
+      
 
 }
