@@ -1,13 +1,7 @@
-
-
-
-
-
-
-
 #include<stdio.h>
 
-void main()
+
+int main()
 {
       int count,n,time,remain,flag=0,time_quantum;
       int wait_time=0,turnaround_time=0,at[10],bt[10],rt[10];
@@ -56,6 +50,6 @@ void main()
              }
       printf("\nAverage Waiting Time= %f\n",wait_time*1.0/n);
       printf("Avg Turnaround Time = %f",turnaround_time*1.0/n);
-      
+      return 0;
 
 }
